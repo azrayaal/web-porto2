@@ -1,0 +1,47 @@
+/* li #register {
+  padding: 10px 10px;
+  border: rgb(129, 129, 228) 1px solid;
+  color: rgb(129, 129, 228);
+  border-radius: 40px;
+}
+li #register:hover {
+  padding: 10px 10px;
+  border: rgb(129, 129, 228) 1px solid;
+  color: #fff;
+  background-color: rgb(129, 129, 228);
+  border-radius: 40px;
+} */
+.navutama {
+  background: transparent;
+}
+
+@media only screen and (max-width: 450px) {
+  .navutama {
+    background-color: rgb(129, 129, 228);
+  }
+}
+
+.navutama.active {
+  background-color: rgb(129, 129, 228);
+}
+
+.itemNav {
+  font-weight: bold;
+}
+
+.itemNav:hover {
+  border-bottom: 2px rgb(129, 129, 228) solid;
+}
+
+.itemregis {
+  font-weight: bold;
+  /* color: #8181e4; */
+}
+.itemregis:hover {
+  color: red;
+  border-bottom: 2px red solid;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+}

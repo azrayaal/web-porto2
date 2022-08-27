@@ -1,0 +1,105 @@
+.home {
+  padding-top: 150px;
+  font-size: larger;
+  /* height: 100vh; */
+  /* background-color: red; */
+  /* position: relative; */
+}
+/* @media only screen and (max-width: 450px) {
+  .home {
+    height: 120vh;
+  }
+} */
+
+@media only screen and (max-width: 450px) {
+  .home {
+    padding-top: 100px;
+  }
+}
+
+.home a {
+  color: white;
+  text-decoration: none;
+}
+
+/* .home .caption {
+  bottom: 30%;
+  position: absolute;
+} */
+
+/* @media only screen and (max-width: 450px) {
+  .home .caption {
+    position: absolute;
+    top: 15vh;
+  }
+} */
+
+.home .btn {
+  padding: 20px 40px;
+  background-color: rgb(129, 129, 228);
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* @media only screen and (max-width: 450px) {
+  .home .btn {
+    position: absolute;
+    right: 12vh;
+  }
+} */
+
+.home .btn:hover {
+  padding: 20px 40px;
+  background-color: rgb(69, 69, 145);
+  border-radius: 50px;
+}
+
+.home img {
+  max-height: 500px;
+  max-width: 450px;
+  background-color: rgb(129, 129, 228);
+  border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+  /* object-fit: cover; */
+  /* position: absolute; */
+  /* right: 130px;
+  bottom: 100px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 450px) {
+  .home img {
+    /* position: absolute;
+    bottom: 10vh;
+    right: 3vh; */
+    height: 300px;
+    width: 300px;
+  }
+}
+
+/* .home .playbtn .bx {
+  color: white;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: absolute;
+  font-size: 90px;
+  bottom: 120px;
+  right: 520px;
+  background-color: rgb(129, 129, 228);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+.home .playbtn .bx:hover {
+  background-color: rgb(69, 69, 145);
+}
+
+@media only screen and (max-width: 450px) {
+  .home .playbtn .bx {
+    position: absolute;
+    font-size: 50px;
+    bottom: 5.7vh;
+    right: 23vh;
+  }
+}
